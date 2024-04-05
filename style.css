@@ -80,3 +80,34 @@ a:focus, button:focus, input:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
 }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjusts the space between images */
+    justify-content: center; /* Center align the images if you prefer */
+}
+
+.image-item img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the aspect ratio intact */
+    max-width: 300px; /* Increased from 200px to 300px for larger images */
+    margin: 0 auto; /* Centers the image in the container */
+}
+
+.image-item img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the aspect ratio intact */
+    max-width: 300px; /* Sets a maximum width for each image */
+    margin: 0 auto; /* Centers the image in the container */
+}
+
+.image-item p {
+    margin-top: 15px; /* Adds space between the image and its description */
+}
+.image-disclaimer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em; /* Adjusts the font size to be slightly smaller */
+    color: #666; /* A lighter text color for the disclaimer */
+}
