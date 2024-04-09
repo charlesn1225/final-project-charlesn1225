@@ -36,6 +36,12 @@
                 </div>
             </div>
             <button onclick="document.getElementById('volunteer-form').style.display='block'">Volunteer Now</button>
+            <!-- "More Info" button and hidden div added below -->
+            <button id="more-info-button">More Info</button>
+            <div id="more-info" style="display: none;">
+                <!-- Additional charity info goes here -->
+                <p>More detailed information about the charity...</p>
+            </div>
         </section>
         <form id="volunteer-form" style="display:none;">
             <label for="name">Name:</label>
@@ -49,5 +55,6 @@
     <div class="image-disclaimer">
         <p>All images are used with permission. Rights to the images are held by their respective owners CFNA.</p>
     </div>
+    <script src="charity_profile.js"></script>
 </body>
 </html>
